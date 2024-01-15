@@ -1,30 +1,35 @@
-// let data = {Name : "Chirag", Age : 19}
+// // let data = {Name : "Chirag", Age : 19}
 
-// console.table(data);
+// // console.table(data);
+
+// // console.log(1);
+
+// // setTimeout()
+
+// const myPromise = new Promise((resolve, reject) => {
+//     const flag = false;
+//     if(flag){
+//         setTimeout(() => {
+//             console.log(2);
+//             resolve();
+//         }, 3000)
+//     }
+//     else{
+//         reject();
+//     }
+// })
 
 // console.log(1);
 
-// setTimeout()
+// myPromise.then(() => {
+//     console.log(3);
+// })
 
-const myPromise = new Promise((resolve, reject) => {
-    const flag = false;
-    if(flag){
-        setTimeout(() => {
-            console.log(2);
-            resolve();
-        }, 3000)
-    }
-    else{
-        reject();
-    }
-})
+// .catch(() => {
+//     console.log("This is an error");
+// })
 
-console.log(1);
+a = 5
+console.log(a);
 
-myPromise.then(() => {
-    console.log(3);
-})
-
-.catch(() => {
-    console.log("This is an error");
-})
+var a;
